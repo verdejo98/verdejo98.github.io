@@ -1,5 +1,8 @@
 body {
   background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1, h2 {
