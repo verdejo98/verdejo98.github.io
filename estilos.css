@@ -1,0 +1,77 @@
+body {
+  background-color: gray;
+}
+
+h1, h2 {
+  margin: 10 px auto;/*Con esto logramos
+  que tenga un margen fijo arriba y abajo,
+  pero tambien se centre automaticamente
+  de izquierda a derecha. No va bien cuando
+  tienes más de un elemento en la misma fila*/
+  text-align: center;/*Con esto logras que 
+  luego de haber centrado un elemento dentro
+  de su contenedor, puedas centrar su texto
+  dentro de si mismo.*/
+  margin: 10px auto;
+}
+h1 {
+  color: blue;
+}
+
+#contenedor{
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: black;
+  padding: 40px;
+  background-color: lightgray;
+  
+}
+
+#cajitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#titulo{
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+
+.cajita {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: black;
+  margin: 5px;
+}
+
+#cajita1 {
+  background: linear-gradient(green, black);
+}
+
+#cajita2 {
+  background: linear-gradient(to right,red, black);
+}
+
+#cajita3 {
+  background: linear-gradient(to bottom left, blue, purple);
+}
+
+#cajita4 {
+  background: linear-gradient(60deg, black, white);
+}
+
+#cajita5 {
+  background: linear-gradient(45deg,red,white, blue);
+}
+
+/*El degradado lineal se puede realizar indicando la
+horientación primero (con preposiciones o angulos)
+(sino pones nada es de arriba a abajo) y luego pones
+dos o más colores*/
