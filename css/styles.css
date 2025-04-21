@@ -1,0 +1,29 @@
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #1b5272;
+}
+
+#nosotros {
+    padding: 20px;
+    text-align: justify;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.753), rgba(255, 255, 255, 0.705)),url('../img/Fondo_Nosotros.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+#about-us p {
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+#nosotros h2{
+    margin-bottom: 60px;
+
+}
